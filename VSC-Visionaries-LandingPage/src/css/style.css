@@ -210,3 +210,115 @@ nav {
     height: auto;
     display: block;
 }
+
+/* === About Section === */
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #6CDAE7;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-title h2 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+    color: #121212;
+}
+
+.section-title p {
+    color: #666;
+    margin: 0;
+}
+
+.about {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+/* === Developer Team Section === */
+.development-team {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+}
+
+.team-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.team-title:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: #6CDAE7;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.team-member {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 15px;
+    border: 3px solid #f5f5f5;
+}
+
+.team-member h3 {
+    margin: 0 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.team-member p {
+    margin: 0;
+    color: #6CDAE7;
+    font-weight: 500;
+    font-size: 14px;
+}
