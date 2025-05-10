@@ -159,3 +159,54 @@ nav {
     cursor: pointer;
     padding: 5px;
 }
+
+/* === Hero Section === */
+.hero {
+    padding: 60px 0;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-content-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin: 0 0 15px 0;
+    color: #121212;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    background-color: #f5f5f5;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
