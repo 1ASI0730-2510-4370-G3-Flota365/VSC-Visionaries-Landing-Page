@@ -10,9 +10,9 @@
 
 ## About The Proyect
 
-El *Landing page* esta diseñada para presentar nuestra solución de sofware llamada **Flota 365**, el cual es permitirá gestionar de manera efectiva las flotas de vehículos de cada uno de las empresas.
+The *Landing page* is designed to present our software solution called **Flota365**, which is to effectively manage the fleets of vehicles of each of the companies.
 
-El objetivo principal es captar la atención de conductores y gestores de flotas, destacando las funcionalidades innovadores que este ofrece y de los enormes beneficios que traerá consigo.
+The main objective is to capture the attention of drivers and fleet managers, highlighting the innovative features it offers and the enormous benefits it will bring.
 
 <br>
 
@@ -22,7 +22,7 @@ El objetivo principal es captar la atención de conductores y gestores de flotas
 
 ## Folder Structure
 
-La estructura del proyecto de **Flota365** esta organizada de la siguiente manera:
+The structure of the **Flota365** project is organized as follows:
 
 ```
 VCS-Visionaries-LandingPage
@@ -39,15 +39,15 @@ VCS-Visionaries-LandingPage
 
 ## Main Components
 
-- **Header**: Incluye el logotipo y la navegación principal.
+- **Header**: Includes the logo and main navigation.
 
-- **Hero Section**: Presenta el mensaje principal y un llamado a la acción.
+- **Hero Section**: Presents the main message and a call to action.
 
-- **About Section**: Describe las características del software.
+- **About Section**: Describes the software features.
 
-- **Features Section**: Enumera los beneficios clave.
+- **Features Section**: Lists key benefits.
 
-- **Details Section**: Información específica para dueños y clientes.
+- **Details Section**: Specific information for owners and customers.
 
 ## Technologies used
 
