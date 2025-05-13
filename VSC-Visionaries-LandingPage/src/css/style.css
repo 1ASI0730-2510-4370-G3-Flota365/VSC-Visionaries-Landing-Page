@@ -459,3 +459,83 @@ nav {
     margin: 0;
     font-size: 14px;
 }
+
+/* === Pricing Section === */
+.pricing {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.pricing-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.toggle-btn {
+    padding: 8px 20px;
+    border: 1px solid #6CDAE7;
+    background-color: transparent;
+    color: #121212;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.toggle-btn.active {
+    background-color: #6CDAE7;
+    color: #fff;
+}
+
+.toggle-btn:first-child {
+    border-radius: 4px 0 0 4px;
+}
+
+.toggle-btn:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+.pricing-grid{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pricing-item {
+    flex: 0 0 calc(33.333333% - 20px);
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-header h3 {
+    font-size: 18px;
+    margin: 0 0 15px 0;
+    color: #121212;
+    text-transform: uppercase;
+}
+
+.pricing-price {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #121212;
+}
+
+.pricing-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.pricing-features li {
+    padding: 8px 0;
+    color: #666;
+}
