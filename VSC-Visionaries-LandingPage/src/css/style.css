@@ -399,3 +399,39 @@ nav {
     font-weight: 500;
     font-size: 14px;
 }
+
+/* === Stats Section === */
+.stats {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-item {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.stat-item i {
+    font-size: 32px;
+    color: #6CDAE7;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.stat-item h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    color: #121212;
+}
+
+.stat-item p {
+    color: #666;
+    margin: 0;
+    font-size: 14px;
+}
