@@ -105,7 +105,7 @@ Don't forget to give the project a star!
 
 ## 🎓 Academic Information
 
-* **Course:** Open Source Applications
+* **Course:** Web Applications
 * **Faculty:** Engineering
 * **University:** Universidad Peruana de Ciencias Aplicadas (UPC)
 * **Semester:** 2025-I
