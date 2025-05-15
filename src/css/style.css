@@ -1,11 +1,11 @@
+/* ==================== ESTILOS GLOBALES ==================== */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     line-height: 1.6;
-    overflow-x: hidden;
-    /* Prevenir scroll horizontal no deseado */
+    overflow-x: hidden; /* Prevenir scroll horizontal no deseado */
 }
 
 .container {
@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
 }
 
-/* === Header & Navigation Section === */
+/* ==================== HEADER Y NAVEGACIÓN ==================== */
 header {
     padding: 20px 0;
     background-color: #fff;
@@ -88,7 +88,7 @@ nav {
     align-items: center;
 }
 
-/* Languages selector */
+/* Selector de idioma */
 .language-selector {
     display: flex;
     margin-right: 15px;
@@ -113,7 +113,7 @@ nav {
     color: #fff;
 }
 
-/* Buttons */
+/* Botones */
 .btn {
     padding: 8px 16px;
     border-radius: 4px;
@@ -150,7 +150,7 @@ nav {
     width: 100%;
 }
 
-/* Mobile Menu */
+/* Menú móvil */
 .mobile-menu-toggle {
     display: none;
     background: none;
@@ -161,7 +161,7 @@ nav {
     padding: 5px;
 }
 
-/* === Hero Section === */
+/* ==================== SECCIÓN HERO ==================== */
 .hero {
     padding: 60px 0;
     background-color: #fff;
@@ -198,7 +198,7 @@ nav {
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
     background-color: #f5f5f5;
     min-height: 300px;
     display: flex;
@@ -212,7 +212,7 @@ nav {
     display: block;
 }
 
-/* === About Section === */
+/* ==================== TÍTULOS DE SECCIÓN ==================== */
 .section-title {
     text-align: center;
     margin-bottom: 40px;
@@ -242,12 +242,13 @@ nav {
     margin: 0;
 }
 
+/* ==================== SECCIÓN ABOUT ==================== */
 .about {
     padding: 60px 0;
     background-color: #fff;
 }
 
-/* === Developer Team Section === */
+/* ==================== EQUIPO DE DESARROLLO ==================== */
 .development-team {
     padding: 60px 0;
     background-color: #f9f9f9;
@@ -324,7 +325,7 @@ nav {
     font-size: 14px;
 }
 
-/* === Features Section === */
+/* ==================== SECCIÓN FEATURES ==================== */
 .features {
     padding: 60px 0;
     background-color: #f9f9f9;
@@ -371,7 +372,7 @@ nav {
     font-size: 14px;
 }
 
-/* === Benefits Section === */
+/* ==================== SECCIÓN BENEFITS ==================== */
 .benefits {
     padding: 60px 0;
     background-color: #fff;
@@ -424,7 +425,7 @@ nav {
     margin-right: 40px;
 }
 
-/* === Stats Section === */
+/* ==================== SECCIÓN STATS ==================== */
 .stats {
     padding: 60px 0;
     background-color: #f9f9f9;
@@ -460,7 +461,7 @@ nav {
     font-size: 14px;
 }
 
-/* === Pricing Section === */
+/* ==================== SECCIÓN PRICING ==================== */
 .pricing {
     padding: 60px 0;
     background-color: #fff;
@@ -494,7 +495,7 @@ nav {
     border-radius: 0 4px 4px 0;
 }
 
-.pricing-grid{
+.pricing-grid {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -538,4 +539,435 @@ nav {
 .pricing-features li {
     padding: 8px 0;
     color: #666;
+}
+
+/* ==================== SECCIÓN CONTACT ==================== */
+.contact {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #6CDAE7;
+    outline: none;
+}
+
+textarea.form-control {
+    height: 120px;
+    resize: vertical;
+}
+
+/* ==================== FOOTER ==================== */
+footer {
+    background-color: #121212;
+    color: #fff;
+    padding: 50px 0 20px;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 15px;
+    min-width: 0; /* Prevenir desbordamiento */
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #FFCC00;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #6CDAE7;
+}
+
+.footer-top {
+    margin-bottom: 40px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social-links li {
+    margin: 0;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #6CDAE7;
+    color: #121212;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+}
+
+/* ==================== RESPONSIVE - PANTALLAS GRANDES ==================== */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .team-list {
+        gap: 15px;
+    }
+}
+
+/* ==================== RESPONSIVE - TABLETS ==================== */
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    /* Features section */
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Benefits section */
+    .benefit-item, .benefit-item:nth-child(even) {
+        flex-direction: column;
+    }
+    
+    .benefit-image, .benefit-item:nth-child(even) .benefit-image {
+        margin: 20px 0 0 0;
+        width: 100%;
+        min-height: 200px;
+    }
+    
+    /* Stats section */
+    .stats-grid {
+        flex-direction: column;
+    }
+    
+    .stat-item {
+        margin-bottom: 30px;
+    }
+    
+    /* Pricing section */
+    .pricing-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .pricing-item {
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+    
+    /* Footer */
+    .footer-columns {
+        flex-wrap: wrap;
+    }
+    
+    .footer-column {
+        flex: 0 0 50%;
+        margin-bottom: 30px;
+    }
+    
+    /* Team section */
+    .team-list {
+        gap: 15px;
+    }
+    
+    .team-member {
+        padding: 15px;
+    }
+}
+
+/* ==================== RESPONSIVE - MÓVILES GRANDES ==================== */
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    /* Header y navegación */
+    .mobile-menu-toggle {
+        display: block;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 100;
+    }
+    
+    .menu-mobile {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: #fff;
+        box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+        transition: right 0.3s ease;
+        flex-direction: column;
+        padding: 80px 20px 30px;
+        z-index: 90;
+        overflow-y: auto;
+    }
+    
+    .menu-open {
+        right: 0;
+    }
+    
+    .menu-mobile li {
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+    .menu-mobile a {
+        font-size: 18px;
+        display: block;
+        padding: 8px 0;
+    }
+    
+    nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .menu {
+        margin: 20px 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .menu li {
+        margin: 5px 10px;
+    }
+    
+    body.menu-active::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 80;
+    }
+    
+    /* Botones de autenticación */
+    .auth-buttons {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    
+    .language-selector {
+        margin: 0 0 15px 0;
+        width: 80%;
+        max-width: 250px;
+    }
+    
+    /* Hero section */
+    .hero {
+        padding: 40px 0;
+    }
+    
+    .hero-content {
+        margin-bottom: 30px;
+    }
+    
+    .hero-content h1 {
+        font-size: 28px;
+    }
+    
+    .hero-content p {
+        font-size: 16px;
+    }
+    
+    /* Team section */
+    .team-list {
+        padding: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .team-member {
+        flex: 0 0 calc(50% - 15px);
+        margin-bottom: 15px;
+    }
+    
+    .team-member img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    /* Footer */
+    .footer-column {
+        flex: 0 0 100%;
+    }
+}
+
+/* ==================== RESPONSIVE - MÓVILES PEQUEÑOS ==================== */
+@media (max-width: 576px) {
+    /* Contenedor */
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+    
+    /* Menú móvil */
+    .mobile-menu-toggle {
+        top: 25px;
+        right: 15px;
+    }
+    
+    .menu-mobile {
+        width: 85%;
+    }
+    
+    /* Hero section */
+    .hero {
+        padding: 30px 0;
+    }
+    
+    .hero-content h1 {
+        font-size: 24px;
+    }
+    
+    /* Botones */
+    .btn {
+        width: 100%;
+        margin: 5px 0;
+        box-sizing: border-box;
+    }
+    
+    .language-selector {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .lang-btn {
+        flex: 1;
+        text-align: center;
+    }
+    
+    /* Team section */
+    .team-list {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        overflow-x: auto;
+        padding-bottom: 15px;
+        scroll-snap-type: x mandatory;
+    }
+    
+    .team-member {
+        flex: 0 0 170px;
+        scroll-snap-align: start;
+        margin-right: 10px;
+    }
+    
+    .team-member:last-child {
+        margin-right: 0;
+    }
+    
+    .team-member img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    /* Features section */
+    .feature-item {
+        padding: 15px;
+    }
+    
+    /* Pricing section */
+    .pricing-item {
+        padding: 20px 15px;
+    }
+    
+    .pricing-price {
+        font-size: 30px;
+    }
+    
+    /* Contact form */
+    .form-control {
+        padding: 10px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 40px 0 20px;
+    }
+    
+    .footer-column h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .social-links {
+        flex-wrap: wrap;
+    }
 }

@@ -92,3 +92,20 @@ Don't forget to give the project a star!
 3. Commit your Changes (`git commit -m 'feat: Add some NewFeatures'`)
 4. Push to the Branch (`git push origin feature/NewFeatures`)
 5. Open a Pull Request
+
+
+## 👥 Development Team
+
+* Jose Huamani - Developer
+* Renato Calvo - Developer
+* Angelo Moscoso - Developer
+* Ariana Ramirez - Developer
+* Raul Sanchez - Developer
+
+
+## 🎓 Academic Information
+
+* **Course:** Open Source Applications
+* **Faculty:** Engineering
+* **University:** Universidad Peruana de Ciencias Aplicadas (UPC)
+* **Semester:** 2025-I
