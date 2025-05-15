@@ -4,7 +4,7 @@
         <br>
         <a href="https://github.com/1ASI0730-2510-4370-G3-Flota365/VSC-Visionaries-Document-Report">Explore the docs »</a>
         -
-        <a href="">View Demo</a>
+        <a href="https://1asi0730-2510-4370-g3-flota365.github.io/VSC-Visionaries-Landing-Page/">View Demo</a>
     </p>
 </div>
 
